@@ -1,39 +1,26 @@
-#vsdiat
-
-#WEEK0
-
-#created new GIT REPO for the coursework
-#installed ubintu virtual machine
-
-
 # VSDIAT
 
 **Brief description of your project.**
+RISCV product skilling program from Kunal Ghosh and Mayank Kabra. Learn skills to design and implement a RISC-V processor. 
 
 ## Table of Contents
-* [Introduction](#introduction)
+* [Introduction](#Introduction)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
-* [License](#license)
 
 ## Introduction
-* What does your project do?
-* Who is it for?
-* What problem does it solve?
+* 6-week assignment based program
+* RISC-V architecture learning, prototyping and product RTL Design and verification
+* End of course objective: knowledge and hands-on experience needed to create custom RISC-V processors tailored to specific applications 
 
 ## Installation
-* How to install dependencies or set up the project.
+* Create a git repo for the coursework
+* Instal a virtual machine on Oracle Virtual box with preintalled software packages of IDE and compilers
 
 ## Usage
-* How to use your project.
-* Examples or tutorials.
+* Week based assignments
+* Create a folder for each week starting from week 0 until week 6 
 
-## Contributing
-* Guidelines for contributing to the project.
-
-## License
-* Specify the license under which your project is released.
 
 **Additional sections can include:**
 * Features
