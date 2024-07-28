@@ -1,6 +1,6 @@
-#WEEK1
+# WEEK1
 
-#CONTENTS
+# CONTENTS
 * 1's 2's complement 
 * ALU code in C
 * ALU code in Verilog
