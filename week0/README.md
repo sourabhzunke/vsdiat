@@ -1,4 +1,10 @@
-#COUNTER
+# WEEK0 
+
+## Contents
+* Counter 
+* 2x2 matrix multiplier
+
+##Counter
 
 *Program to run a seconds counter in C.*
 
@@ -67,6 +73,13 @@ restore the stack pointer value to its original before starting the function cal
 
 * jr ra
 jump back to the return address
+
+
+## 2x2 matrix multiplier
+
+*refer to matrix_multiplication.asm for the assembly code*
+
+#Need more time to understand this assembly code. Will leave it for now and move on to next week assignment#
 
 
 
