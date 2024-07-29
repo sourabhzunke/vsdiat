@@ -4,7 +4,7 @@
 * Counter 
 * 2x2 matrix multiplier
 
-##Counter
+## Counter
 
 *Program to run a seconds counter in C.*
 

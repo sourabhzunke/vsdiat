@@ -1,0 +1,162 @@
+$date
+	Mon Jul 29 12:53:56 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module testbench_behavioural_alu $end
+$var wire 1 ! Z $end
+$var wire 1 " V $end
+$var wire 4 # RESULT [3:0] $end
+$var wire 1 $ N $end
+$var wire 1 % C $end
+$var reg 3 & CONTROL [2:0] $end
+$var reg 4 ' IN1 [3:0] $end
+$var reg 4 ( IN2 [3:0] $end
+$scope module test_unit $end
+$var wire 1 % C $end
+$var wire 3 ) CONTROL [2:0] $end
+$var wire 4 * IN1 [3:0] $end
+$var wire 4 + IN2 [3:0] $end
+$var wire 4 , RESULT [3:0] $end
+$var wire 1 " V $end
+$var wire 4 - and_out [3:0] $end
+$var wire 4 . inv_out [3:0] $end
+$var wire 4 / neg_in2 [3:0] $end
+$var wire 4 0 or_out [3:0] $end
+$var wire 1 1 ov1 $end
+$var wire 1 2 ov2 $end
+$var wire 1 3 ov3 $end
+$var wire 1 4 wire_V $end
+$var wire 4 5 sum [3:0] $end
+$var wire 4 6 mux_result [3:0] $end
+$var wire 4 7 mux_in2 [3:0] $end
+$var wire 1 8 cout $end
+$var wire 1 9 control_bit_2_1 $end
+$var wire 1 ! Z $end
+$var wire 1 $ N $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+09
+x8
+b1111 7
+bx 6
+bx 5
+x4
+x3
+x2
+11
+bx 0
+b1111 /
+bz .
+b0 -
+bx ,
+b0 +
+bz *
+b0 )
+b0 (
+b0 '
+b0 &
+x%
+x$
+bx #
+x"
+x!
+$end
+#5000
+b111x 7
+b0x -
+b111x /
+b0x +
+b1 (
+#10000
+b11x1 7
+b0x0 -
+b11x1 /
+b0x0 +
+b10 (
+#15000
+b11xx 7
+b0xx -
+b11xx /
+b0xx +
+b11 (
+#20000
+b1x11 7
+b0x00 -
+b1x11 /
+b0x00 +
+b100 (
+#25000
+b1x1x 7
+b0x0x -
+b1x1x /
+b0x0x +
+b101 (
+#30000
+b1xx1 7
+b0xx0 -
+b1xx1 /
+b0xx0 +
+b110 (
+#35000
+b1xxx 7
+b0xxx -
+b1xxx /
+b0xxx +
+b111 (
+#40000
+bx111 7
+bx000 -
+bx111 /
+bx000 +
+b1000 (
+#45000
+bx11x 7
+bx00x -
+bx11x /
+bx00x +
+b1001 (
+#50000
+bx1x1 7
+bx0x0 -
+bx1x1 /
+bx0x0 +
+b1010 (
+#55000
+bx1xx 7
+bx0xx -
+bx1xx /
+bx0xx +
+b1011 (
+#60000
+bx11 7
+bx00 -
+bx11 /
+bx00 +
+b1100 (
+#65000
+bx1x 7
+bx0x -
+bx1x /
+bx0x +
+b1101 (
+#70000
+bx1 7
+bx0 -
+bx1 /
+bx0 +
+b1110 (
+#75000
+bx 7
+bx -
+bx /
+bx +
+b1111 (
+#80000
