@@ -1,4 +1,4 @@
-module ALU(IN2,IN2,CONTROL,RESULT,N,Z,C,V);
+module ALU(IN1,IN2,CONTROL,RESULT,N,Z,C,V);
 
 //inputs
 input [3:0] IN1, IN2;
