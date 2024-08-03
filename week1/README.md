@@ -5,7 +5,7 @@ WEEK1 Assignments
 ## CONTENTS
 * [1's 2's complement](#1's 2's complement) 
 * [ALU code in C](#ALU code in C)
-* [ALU code in Verilog](ALU code in Verilog)
+* [ALU code in Verilog](#ALU code in Verilog)
 
 ## 1's 2's complement
 
@@ -40,4 +40,5 @@ WEEK1 Assignments
 |-----------------------------------------------------------------------------------------------|<br />
 <br />
 
- 
+## ALU code in C
+## ALU code in Verilog
