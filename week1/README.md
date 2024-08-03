@@ -49,3 +49,17 @@
 ![C program ALU addition output](alu_c.png)
  
 ## ALU code in Verilog
+
+![ALU Diagram](alu_diag.jpg)
+
+* File name: <br />
+    DUT: alu.c <br />
+    TB : alu_test_2.v <br />
+
+* 4-bit ALU design in Behavioural Verilog with addition, substraction, Logical AND, Logical OR and Negation  
+    Output as 4-bit Result with NCZV bits.
+    N-Negative output
+    C-Carry out bit set
+    Z-Zero output
+    V-Overflow 
+     
