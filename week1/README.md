@@ -43,8 +43,8 @@
 ## ALU code in C
 
 * 4-bit ALU with following operations-<br />
-*     Addition, substraction, Logical AND, Logical OR, Logical Negation <br />
-*     Addition support Cin and Cout, with additional but for Cout <br />
+    Addition, substraction, Logical AND, Logical OR, Logical Negation <br />
+    Addition support Cin and Cout, with additional but for Cout <br />
 	
 ![C program ALU addition output](alu_c.png)
  
