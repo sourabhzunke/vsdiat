@@ -1,6 +1,6 @@
 # WEEK1
 
-WEEK1 Assignments
+**WEEK1 Assignments**
 
 ## CONTENTS
 * [1's 2's complement](#1's 2's complement) 
@@ -41,4 +41,11 @@ WEEK1 Assignments
 <br />
 
 ## ALU code in C
+
+* 4-bit ALU with following operations-
+	Addition, substraction, Logical AND, Logical OR, Logical Negation 
+	Addition support Cin and Cout, with additional but for Cout
+	
+![C program ALU addition output](alu_c.png)
+ 
 ## ALU code in Verilog
