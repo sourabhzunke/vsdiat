@@ -42,6 +42,7 @@
 
 ## ALU code in C
 
+* File name: alu.c <br />
 * 4-bit ALU with following operations-<br />
     Addition, substraction, Logical AND, Logical OR, Logical Negation <br />
     Addition support Cin and Cout, with additional but for Cout <br />
@@ -53,7 +54,7 @@
 ![ALU Diagram](alu_diag.jpg)
 
 * File name: <br />
-    DUT: alu.c <br />
+    DUT: alu.v <br />
     TB : alu_test_2.v <br />
 
 * 4-bit ALU design in Behavioural Verilog with addition, substraction, Logical AND, Logical OR and Negation  
@@ -63,3 +64,4 @@
     Z-Zero output
     V-Overflow 
      
+![ALU TB waveform](alu_tb_Waveform.png)
