@@ -1,0 +1,92 @@
+
+alu.o:     file format elf64-littleriscv
+
+
+Disassembly of section .text:
+
+0000000000010078 <main>:
+   10078:	fe010113          	addi	sp,sp,-32
+   1007c:	00813c23          	sd	s0,24(sp)
+   10080:	02010413          	addi	s0,sp,32
+   10084:	fef44783          	lbu	a5,-17(s0)
+   10088:	0ff7f713          	andi	a4,a5,255
+   1008c:	00f00793          	li	a5,15
+   10090:	00e7ea63          	bltu	a5,a4,100a4 <main+0x2c>
+   10094:	fee44783          	lbu	a5,-18(s0)
+   10098:	0ff7f713          	andi	a4,a5,255
+   1009c:	00f00793          	li	a5,15
+   100a0:	00e7fe63          	bgeu	a5,a4,100bc <main+0x44>
+   100a4:	fef44783          	lbu	a5,-17(s0)
+   100a8:	00f7f793          	andi	a5,a5,15
+   100ac:	fef407a3          	sb	a5,-17(s0)
+   100b0:	fee44783          	lbu	a5,-18(s0)
+   100b4:	00f7f793          	andi	a5,a5,15
+   100b8:	fef40723          	sb	a5,-18(s0)
+   100bc:	fed44783          	lbu	a5,-19(s0)
+   100c0:	0007879b          	sext.w	a5,a5
+   100c4:	00078693          	mv	a3,a5
+   100c8:	00500713          	li	a4,5
+   100cc:	0ed76463          	bltu	a4,a3,101b4 <main+0x13c>
+   100d0:	00279713          	slli	a4,a5,0x2
+   100d4:	000107b7          	lui	a5,0x10
+   100d8:	1cc78793          	addi	a5,a5,460 # 101cc <main+0x154>
+   100dc:	00f707b3          	add	a5,a4,a5
+   100e0:	0007a783          	lw	a5,0(a5)
+   100e4:	00078067          	jr	a5
+   100e8:	fec44783          	lbu	a5,-20(s0)
+   100ec:	0017f793          	andi	a5,a5,1
+   100f0:	fef40623          	sb	a5,-20(s0)
+   100f4:	fef44703          	lbu	a4,-17(s0)
+   100f8:	fee44783          	lbu	a5,-18(s0)
+   100fc:	00f707bb          	addw	a5,a4,a5
+   10100:	0ff7f793          	andi	a5,a5,255
+   10104:	fec44703          	lbu	a4,-20(s0)
+   10108:	00f707bb          	addw	a5,a4,a5
+   1010c:	fef405a3          	sb	a5,-21(s0)
+   10110:	feb44783          	lbu	a5,-21(s0)
+   10114:	0107f793          	andi	a5,a5,16
+   10118:	fef40523          	sb	a5,-22(s0)
+   1011c:	fea44783          	lbu	a5,-22(s0)
+   10120:	0047d79b          	srliw	a5,a5,0x4
+   10124:	fef40523          	sb	a5,-22(s0)
+   10128:	feb44783          	lbu	a5,-21(s0)
+   1012c:	00f7f793          	andi	a5,a5,15
+   10130:	fef405a3          	sb	a5,-21(s0)
+   10134:	0840006f          	j	101b8 <main+0x140>
+   10138:	fef44703          	lbu	a4,-17(s0)
+   1013c:	fee44783          	lbu	a5,-18(s0)
+   10140:	40f707bb          	subw	a5,a4,a5
+   10144:	fef405a3          	sb	a5,-21(s0)
+   10148:	fef44703          	lbu	a4,-17(s0)
+   1014c:	fee44783          	lbu	a5,-18(s0)
+   10150:	0ff77713          	andi	a4,a4,255
+   10154:	0ff7f793          	andi	a5,a5,255
+   10158:	00f76863          	bltu	a4,a5,10168 <main+0xf0>
+   1015c:	00100793          	li	a5,1
+   10160:	fef40523          	sb	a5,-22(s0)
+   10164:	0540006f          	j	101b8 <main+0x140>
+   10168:	fe040523          	sb	zero,-22(s0)
+   1016c:	04c0006f          	j	101b8 <main+0x140>
+   10170:	fef44703          	lbu	a4,-17(s0)
+   10174:	fee44783          	lbu	a5,-18(s0)
+   10178:	00f777b3          	and	a5,a4,a5
+   1017c:	fef405a3          	sb	a5,-21(s0)
+   10180:	0380006f          	j	101b8 <main+0x140>
+   10184:	fef44703          	lbu	a4,-17(s0)
+   10188:	fee44783          	lbu	a5,-18(s0)
+   1018c:	00f767b3          	or	a5,a4,a5
+   10190:	fef405a3          	sb	a5,-21(s0)
+   10194:	0240006f          	j	101b8 <main+0x140>
+   10198:	fef44783          	lbu	a5,-17(s0)
+   1019c:	fff7c793          	not	a5,a5
+   101a0:	fef405a3          	sb	a5,-21(s0)
+   101a4:	feb44783          	lbu	a5,-21(s0)
+   101a8:	00f7f793          	andi	a5,a5,15
+   101ac:	fef405a3          	sb	a5,-21(s0)
+   101b0:	0080006f          	j	101b8 <main+0x140>
+   101b4:	00000013          	nop
+   101b8:	00000793          	li	a5,0
+   101bc:	00078513          	mv	a0,a5
+   101c0:	01813403          	ld	s0,24(sp)
+   101c4:	02010113          	addi	sp,sp,32
+   101c8:	00008067          	ret

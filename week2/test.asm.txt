@@ -1,0 +1,19 @@
+
+test.o:     file format elf64-littleriscv
+
+
+Disassembly of section .text:
+
+0000000000010078 <main>:
+   10078:	fe010113          	addi	sp,sp,-32
+   1007c:	00813c23          	sd	s0,24(sp)
+   10080:	02010413          	addi	s0,sp,32
+   10084:	00a00793          	li	a5,10
+   10088:	fef42623          	sw	a5,-20(s0)
+   1008c:	00500793          	li	a5,5
+   10090:	fef42423          	sw	a5,-24(s0)
+   10094:	00000793          	li	a5,0
+   10098:	00078513          	mv	a0,a5
+   1009c:	01813403          	ld	s0,24(sp)
+   100a0:	02010113          	addi	sp,sp,32
+   100a4:	00008067          	ret

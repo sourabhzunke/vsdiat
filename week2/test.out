@@ -1,0 +1,25 @@
+format
+of
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 1
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 4
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 5
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 7
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 10
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 12
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 15
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 17
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 18
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 22
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 23
+Total cycles: 23

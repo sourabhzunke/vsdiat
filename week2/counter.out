@@ -1,0 +1,859 @@
+format
+of
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 1
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 2
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 4
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 5
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 6
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 7
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 8
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 9
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 10
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 11
+sub
+Opcode: sub, Cycle Count: 1, Total Cycles: 12
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 14
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 16
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 17
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 18
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 20
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 22
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 26
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 27
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 29
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 31
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 32
+lbu
+Opcode: lbu, Cycle Count: 3, Total Cycles: 35
+bnez
+Opcode: bnez, Cycle Count: 2, Total Cycles: 37
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 38
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 39
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 41
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 42
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 43
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 44
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 47
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 48
+jalr
+Opcode: jalr, Cycle Count: 2, Total Cycles: 50
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 54
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 56
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 59
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 60
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 62
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 65
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 66
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 67
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 69
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 70
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 71
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 72
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 73
+jr
+Opcode: jr, Cycle Count: 2, Total Cycles: 75
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 76
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 79
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 82
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 83
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 84
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 87
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 91
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 94
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 96
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 99
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 101
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 102
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 106
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 110
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 111
+bltu
+Opcode: bltu, Cycle Count: 2, Total Cycles: 113
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 117
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 121
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 122
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 123
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 126
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 127
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 128
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 131
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 135
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 136
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 137
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 140
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 143
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 144
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 147
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 151
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 152
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 154
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 158
+addiw
+Opcode: addiw, Cycle Count: 2, Total Cycles: 160
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 163
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 167
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 169
+bne
+Opcode: bne, Cycle Count: 2, Total Cycles: 171
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 174
+lui
+Opcode: lui, Cycle Count: 1, Total Cycles: 175
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 176
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 178
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 179
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 180
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 182
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 184
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 186
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 187
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 188
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 192
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 193
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 194
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 197
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 199
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 201
+beq
+Opcode: beq, Cycle Count: 2, Total Cycles: 203
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 207
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 211
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 212
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 216
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 217
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 221
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 222
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 226
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 227
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 228
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 230
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 233
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 236
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 237
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 239
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 240
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 244
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 248
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 250
+jalr
+Opcode: jalr, Cycle Count: 2, Total Cycles: 252
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 253
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 255
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 256
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 259
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 260
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 261
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 262
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 263
+sub
+Opcode: sub, Cycle Count: 1, Total Cycles: 264
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 267
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 270
+srai
+Opcode: srai, Cycle Count: 1, Total Cycles: 271
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 273
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 274
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 275
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 279
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 280
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 281
+jalr
+Opcode: jalr, Cycle Count: 2, Total Cycles: 283
+bnez
+Opcode: bnez, Cycle Count: 2, Total Cycles: 285
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 289
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 293
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 297
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 298
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 299
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 302
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 305
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 306
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 307
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 308
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 309
+sub
+Opcode: sub, Cycle Count: 1, Total Cycles: 310
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 313
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 316
+srai
+Opcode: srai, Cycle Count: 1, Total Cycles: 317
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 319
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 321
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 325
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 326
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 327
+jalr
+Opcode: jalr, Cycle Count: 2, Total Cycles: 329
+bne
+Opcode: bne, Cycle Count: 2, Total Cycles: 331
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 332
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 333
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 334
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 335
+sub
+Opcode: sub, Cycle Count: 1, Total Cycles: 336
+srai
+Opcode: srai, Cycle Count: 1, Total Cycles: 337
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 339
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 341
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 345
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 346
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 347
+jalr
+Opcode: jalr, Cycle Count: 2, Total Cycles: 349
+bne
+Opcode: bne, Cycle Count: 2, Total Cycles: 351
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 355
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 359
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 363
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 367
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 368
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 370
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 371
+bgeu
+Opcode: bgeu, Cycle Count: 2, Total Cycles: 373
+andi
+Opcode: andi, Cycle Count: 1, Total Cycles: 374
+bnez
+Opcode: bnez, Cycle Count: 2, Total Cycles: 376
+bnez
+Opcode: bnez, Cycle Count: 2, Total Cycles: 378
+andi
+Opcode: andi, Cycle Count: 1, Total Cycles: 379
+andi
+Opcode: andi, Cycle Count: 1, Total Cycles: 380
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 381
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 384
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 387
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 388
+bltu
+Opcode: bltu, Cycle Count: 2, Total Cycles: 390
+bnez
+Opcode: bnez, Cycle Count: 2, Total Cycles: 392
+sub
+Opcode: sub, Cycle Count: 1, Total Cycles: 393
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 394
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 395
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 396
+jr
+Opcode: jr, Cycle Count: 2, Total Cycles: 398
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 401
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 404
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 407
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 410
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 413
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 416
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 419
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 422
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 425
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 428
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 431
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 434
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 437
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 440
+sb
+Opcode: sb, Cycle Count: 3, Total Cycles: 443
+andi
+Opcode: andi, Cycle Count: 1, Total Cycles: 444
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 445
+or
+Opcode: or, Cycle Count: 1, Total Cycles: 446
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 447
+or
+Opcode: or, Cycle Count: 1, Total Cycles: 448
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 449
+or
+Opcode: or, Cycle Count: 1, Total Cycles: 450
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 451
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 452
+auipc
+Opcode: auipc, Cycle Count: 1, Total Cycles: 453
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 454
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 455
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 456
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 457
+sub
+Opcode: sub, Cycle Count: 1, Total Cycles: 458
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 459
+bgeu
+Opcode: bgeu, Cycle Count: 2, Total Cycles: 461
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 462
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 463
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 464
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 467
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 469
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 473
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 474
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 475
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 479
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 483
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 485
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 489
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 491
+blt
+Opcode: blt, Cycle Count: 2, Total Cycles: 493
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 495
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 496
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 497
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 500
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 504
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 506
+sllw
+Opcode: sllw, Cycle Count: 1, Total Cycles: 507
+or
+Opcode: or, Cycle Count: 1, Total Cycles: 508
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 511
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 514
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 516
+beq
+Opcode: beq, Cycle Count: 2, Total Cycles: 518
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 519
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 520
+addiw
+Opcode: addiw, Cycle Count: 2, Total Cycles: 522
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 525
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 526
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 529
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 531
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 532
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 535
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 536
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 540
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 542
+or
+Opcode: or, Cycle Count: 1, Total Cycles: 543
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 544
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 545
+addiw
+Opcode: addiw, Cycle Count: 2, Total Cycles: 547
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 550
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 553
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 554
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 557
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 559
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 560
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 561
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 564
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 568
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 571
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 574
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 577
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 580
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 583
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 586
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 589
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 592
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 595
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 596
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 597
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 599
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 601
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 605
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 607
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 611
+addiw
+Opcode: addiw, Cycle Count: 2, Total Cycles: 613
+bltz
+Opcode: bltz, Cycle Count: 2, Total Cycles: 615
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 616
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 617
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 619
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 623
+beq
+Opcode: beq, Cycle Count: 2, Total Cycles: 625
+addiw
+Opcode: addiw, Cycle Count: 2, Total Cycles: 627
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 628
+bne
+Opcode: bne, Cycle Count: 2, Total Cycles: 630
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 634
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 638
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 642
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 646
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 650
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 654
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 658
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 662
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 666
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 670
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 671
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 675
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 679
+addiw
+Opcode: addiw, Cycle Count: 2, Total Cycles: 681
+beq
+Opcode: beq, Cycle Count: 2, Total Cycles: 683
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 686
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 688
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 692
+sllw
+Opcode: sllw, Cycle Count: 1, Total Cycles: 693
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 697
+and
+Opcode: and, Cycle Count: 1, Total Cycles: 698
+bnez
+Opcode: bnez, Cycle Count: 2, Total Cycles: 700
+jalr
+Opcode: jalr, Cycle Count: 2, Total Cycles: 702
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 706
+bne
+Opcode: bne, Cycle Count: 2, Total Cycles: 708
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 712
+beq
+Opcode: beq, Cycle Count: 2, Total Cycles: 714
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 715
+lw
+Opcode: lw, Cycle Count: 4, Total Cycles: 719
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 723
+and
+Opcode: and, Cycle Count: 1, Total Cycles: 724
+bnez
+Opcode: bnez, Cycle Count: 2, Total Cycles: 726
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 727
+jalr
+Opcode: jalr, Cycle Count: 2, Total Cycles: 729
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 730
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 733
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 734
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 735
+jalr
+Opcode: jalr, Cycle Count: 2, Total Cycles: 737
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 738
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 740
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 742
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 744
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 746
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 748
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 750
+bltz
+Opcode: bltz, Cycle Count: 2, Total Cycles: 752
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 753
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 754
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 757
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 758
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 761
+negw
+Opcode: negw, Cycle Count: 1, Total Cycles: 762
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 764
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 767
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 768
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 769
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 772
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 773
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 777
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 781
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 784
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 787
+or
+Opcode: or, Cycle Count: 1, Total Cycles: 788
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 789
+beqz
+Opcode: beqz, Cycle Count: 2, Total Cycles: 791
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 792
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 794
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 796
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 800
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 804
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 808
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 812
+sub
+Opcode: sub, Cycle Count: 1, Total Cycles: 813
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 814
+sub
+Opcode: sub, Cycle Count: 1, Total Cycles: 815
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 816
+sub
+Opcode: sub, Cycle Count: 1, Total Cycles: 817
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 818
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 819
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 823
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 827
+slli
+Opcode: slli, Cycle Count: 1, Total Cycles: 828
+sub
+Opcode: sub, Cycle Count: 1, Total Cycles: 829
+add
+Opcode: add, Cycle Count: 1, Total Cycles: 830
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 833
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 836
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 839
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 842
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 846
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 847
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 849
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 850
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 852
+j
+Opcode: j, Cycle Count: 1, Total Cycles: 853
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 855
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 857
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 859
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 861
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 863
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 865
+bltz
+Opcode: bltz, Cycle Count: 2, Total Cycles: 867
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 868
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 871
+sd
+Opcode: sd, Cycle Count: 3, Total Cycles: 874
+mv
+Opcode: mv, Cycle Count: 1, Total Cycles: 875
+jal
+Opcode: jal, Cycle Count: 2, Total Cycles: 877
+negw
+Opcode: negw, Cycle Count: 1, Total Cycles: 878
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 882
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 886
+sw
+Opcode: sw, Cycle Count: 3, Total Cycles: 889
+li
+Opcode: li, Cycle Count: 2, Total Cycles: 891
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 892
+addi
+Opcode: addi, Cycle Count: 1, Total Cycles: 893
+ld
+Opcode: ld, Cycle Count: 4, Total Cycles: 897
+Total cycles: 897
