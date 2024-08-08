@@ -3,11 +3,11 @@
 **WEEK1 Assignments**
 
 ## CONTENTS
-* [1's 2's complement](#1s2scomplement) 
+* [1's 2's complement](#1s 2s complement) 
 * [ALU code in C](#ALU code in C)
 * [ALU code in Verilog](#ALU code in Verilog)
 
-## 1s2scomplement
+## 1s 2s complement
 
 **10 - 19** <br />
 |-----------------------------------------------------------------------------------------------|<br />
