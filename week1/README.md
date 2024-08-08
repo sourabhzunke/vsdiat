@@ -3,11 +3,11 @@
 **WEEK1 Assignments**
 
 ## CONTENTS
-* [1's 2's complement](#1s 2s complement) 
-* [ALU code in C](#ALU code in C)
-* [ALU code in Verilog](#ALU code in Verilog)
+* [1's 2's complement](#Complement) 
+* [ALU code in C](#ALU-C)
+* [ALU code in Verilog](#ALU-Verilog)
 
-## 1s 2s complement
+## Complement
 
 **10 - 19** <br />
 |-----------------------------------------------------------------------------------------------|<br />
@@ -40,7 +40,7 @@
 |-----------------------------------------------------------------------------------------------|<br />
 <br />
 
-## ALU code in C
+## ALU-C
 
 * File name: alu.c <br />
 * 4-bit ALU with following operations-<br />
@@ -49,7 +49,7 @@
 	
 ![C program ALU addition output](alu_c.png)
  
-## ALU code in Verilog
+## ALU-Verilog
 
 ![ALU Diagram](alu_diag.jpg)
 
