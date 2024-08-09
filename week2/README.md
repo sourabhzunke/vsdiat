@@ -19,7 +19,7 @@
        - riscv64-unknown-elf-objdump -d -r alu.o > alu.asm.txt 
 ![installer](installer)
 ![spike](spike)
-![disassembly](disassembly)
+![disassmebly](disassmebly)
 		
 ## Scraper Script
     I wrote a python script to calculate the total cycles for each C code. The script has a dictionary of opcodes and the assumed cycles for each opcode. The script extracts the opcode from each line, looks for these opcodes in the dictionary and gets the cycle for that opcode. This cycle for each opcode is then summed up to get the total number of cycles that will be taken by the C program. 
