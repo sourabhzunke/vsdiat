@@ -17,9 +17,9 @@
        - riscv64-unknown-elf-gcc -march=rv64i -mabi=lp64 -ffreestanding -nostdlib -o alu.o alu.c
     * The following command converts the obj file into assembly code-
        - riscv64-unknown-elf-objdump -d -r alu.o > alu.asm.txt 
-![Screenshot 2024-08-09 010251.png](Screenshot 2024-08-09 010251.png)
-![Screenshot 2024-08-09 010326.png](Screenshot 2024-08-09 010326.png)
-![Screenshot 2024-08-09 010355.png](Screenshot 2024-08-09 010355.png)
+![installer](installer)
+![spike](spike)
+![disassembly](disassembly)
 		
 ## Scraper Script
     I wrote a python script to calculate the total cycles for each C code. The script has a dictionary of opcodes and the assumed cycles for each opcode. The script extracts the opcode from each line, looks for these opcodes in the dictionary and gets the cycle for that opcode. This cycle for each opcode is then summed up to get the total number of cycles that will be taken by the C program. 
