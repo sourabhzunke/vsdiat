@@ -16,4 +16,8 @@
 
 ## Diagram
 
- 
+![IRdiagram.png](IRdiagram.png)
+
+## Flowchart
+
+![IRflowchart.png](IRflowchart.png) 
