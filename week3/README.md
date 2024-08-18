@@ -5,6 +5,7 @@
 * [Background](#Background)
 * [Diagram](#Diagram)
 * [Flowchart](#Flowchat)
+* [Working](#Working)
 
 ## Introduction
 
@@ -21,3 +22,9 @@
 ## Flowchart
 
 ![IRflowchart.png](IRflowchart.png) 
+
+## Working
+
+    This system will be activated when it detects movement in close proximity to the device, this is specifically so as to the light doesn't get activated for any random movement but is only switched on when necessary. This makes the system power efficient and purpose driven. The system will have a close proximity IR sensor which will detect a wave of hand, when it detects a movement, it will switch on the light, when the user again waves a hand, the system will toggle the light state. So, the light will basically switch between the two states and the IR input will act as a trigger. 
+
+
